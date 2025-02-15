@@ -1,0 +1,14 @@
+# Build artifacts
+build/*
+playwright/.cache
+**/*.d.ts
+src/templates/*
+
+# Filetypes to exclude
+**/*.md
+
+# Lock files
+pnpm-lock.yaml
+
+# Test snapshots
+**/tests/**/*-snapshots/*.json
