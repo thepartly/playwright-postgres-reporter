@@ -1,6 +1,6 @@
 {
     "name": "playwright-postgres-reporter",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Playwright plugin which reports tests and test sessions results and data to Postgresql Database.",
     "license": "MIT",
     "author": "Partly Group",
