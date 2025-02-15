@@ -21,7 +21,3 @@ CREATE TABLE IF NOT EXISTS public.test_results
 
     constraint test_result_pk primary key (test_session_id, test_name)
 );
-
--- grant permissions to new tables
-grant delete, insert, references, select, trigger, truncate, update on public.test_sessions to grafana;
-grant delete, insert, references, select, trigger, truncate, update on public.test_results to grafana;

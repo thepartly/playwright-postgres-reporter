@@ -64,9 +64,7 @@ class PostgresReporter implements Reporter {
     }
 
     private async bootstrap(): Promise<string> {
-        // 2024-09-17 Migrations disabled as they are not safe for concurrent execution and our tests
-        // run very concurrently.
-        //await this.db_migrations();
+        await this.db_migrations();
 
         let session_insert_result: { id: string }[] = await this._dbClient(
             "test_sessions",
