@@ -78,5 +78,5 @@ How to release to npm?
 1. Update `package.json` version field
 2. Run build
 3. Run `pnpm release`
-4. Add git tag (update version) `git tag -a v1.0.0 -m "Release 1.0.0"`
-5. Then push the tag to the remote repository
+4. (Optionally) Add git tag (update version) `git tag -a v1.0.0 -m "Release 1.0.0"`
+5. Then push changes to the remote repository
