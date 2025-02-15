@@ -1,6 +1,6 @@
 {
     "name": "playwright-postgres-reporter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Playwright plugin which reports tests and test sessions results and data to Postgresql Database.",
     "license": "MIT",
     "author": "Partly Group",
@@ -26,10 +26,14 @@
     },
     "main": "build/index.js",
     "types": "build/index.d.ts",
+    "files": [
+        "build/*",
+        "migrations/*"
+    ],
     "keywords": [
         "playwright",
         "reporter",
-        "console",
+        "postgres",
         "testing"
     ],
     "publishConfig": {
